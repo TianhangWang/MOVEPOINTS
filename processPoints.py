@@ -37,7 +37,7 @@ def aggregation_file(dir, index, born_dir):
                 destination_file.write(" ".join(inter_list[0:3]) + "\n")
 
 
-dir_name_c = "D:\\surf_\\surf"
+dir_name_c = "D:\\surf_\\surf" # add path 
 dir_born_1 = "D:\\pcl-data\\normals"
 dir_born_2 = "D:\\pcl-data"
 for i in range(1, 976):
