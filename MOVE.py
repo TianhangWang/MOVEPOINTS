@@ -1,6 +1,8 @@
 import os
 
-
+## 这个函数的功能用于 把每一个txt文件中 每一行的第一数 都加上特定的value
+## 而 每一行的第一个数 都对应x的值 
+## 所以就可以 把结构全部沿x移动到 对应的分区
 def process_file_add(file_directory, value):
     result = list()
     with open(file_directory, 'r') as processedFile:
